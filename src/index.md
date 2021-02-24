@@ -1,5 +1,5 @@
 ---
-title: "hello world"
+title: "hello world 2"
 layout: "base.njk"
 ---
 
