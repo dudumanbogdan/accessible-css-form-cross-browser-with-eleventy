@@ -1,6 +1,13 @@
 ---
-title: "hello world 2"
+title: "hello world - home page"
 layout: "base.njk"
+templateEngineOverride: njk,md
 ---
 
 This is a home page content
+
+## From the blog
+
+{% for post in collections.postsTag | randomPost %}
+<a href="{{post.url}}">{{post.data.title}}</a>
+{% endfor %}
