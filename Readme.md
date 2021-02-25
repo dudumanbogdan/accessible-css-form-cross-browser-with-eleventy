@@ -6,3 +6,7 @@
 - render list of items from MD files
 - add filter for random item from list
 - render list of items from API
+
+### Add accessible CSS form cross browser
+
+- build form
